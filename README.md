@@ -6,7 +6,7 @@ Create OpenPLC Docker, modify OpenPLC configuration including Slave Configuratio
 2. Modify database.sh according to your requirement. See comments for more details.
 3. Build Docker image
     ```
-    docker build -t openplc:v3 --build-arg script=<your script.st> --build-arg database=database.sh
+    docker build -t openplc:v3 --build-arg script=<your script.st> --build-arg database=database.sh .
     ```
 4.  Run Docker image
     ```
